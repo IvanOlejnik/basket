@@ -1,0 +1,16 @@
+{
+  "name": "mario",
+  "version": "1.0.0",
+  "description": "my mario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Oleinik",
+  "license": "ISC",
+  "dependencies": {
+    "events": "^3.0.0",
+    "mousetrap": "^1.6.2",
+    "pixi.js": "^4.8.3"
+  }
+}
