@@ -11,7 +11,7 @@ PIXI.loader
     .add("background", "images/bgst.jpg")
     .add("land", "images/land.jpg")
     .add("rock", "images/rock.png")
-    .add("marioClip", "images/marioClip.png")
+    .add("marioClip", "images/marioClip2.png")
     .load(setup);
 eventsList();
 var mario, background, land, rock = [], rect;
@@ -135,7 +135,7 @@ function obstruction(lett){
 function runMario() {
     if(moveL || moveR || moveT || moveD){
        run++; 
-       if(run == 5){
+       if(run == 7){
            run = 0;
            if(rect.x >=45*4) {
                rect.x = 0;
